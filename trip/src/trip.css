@@ -1,0 +1,237 @@
+.All-Card-list{
+    display: flex;
+    flex-wrap: wrap;
+    width: 617px;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+.Cards-list{
+    background-color: #F86549;
+    width: 500px;
+}
+.card {
+    position: relative;
+    margin-top: 28px;
+    background-color: #F86549;
+    color: #353646;
+    border-radius: 25px !important;
+    
+}
+.tripNameLocation{
+    position: absolute;
+    width: 60px;
+    height: 18px;
+    left: 30px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 127.7%;
+    color: #353646;
+    opacity: 0.4;
+}
+.trip div{
+    background-color: bisque;
+}
+
+.cardimage {
+    display: block; 
+   border-radius: 20px;
+    margin: 12.62px auto 0;
+    width: 68.19px;
+    height: 170.38px;
+}
+
+.location{
+  position:absolute;
+  color:  #FF6647;
+  font-size: 18px;
+  left: 12px;
+}
+.price{
+    position: absolute;
+    width: 44px;
+    height: 18px;
+    right: 14.17px;
+    bottom: 18px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 127.7%;
+}
+.edit{
+    position: absolute;
+    width: 35.76px;
+    height: 35.76px;
+    left: 196.02px;
+    bottom: 60.12px;
+    background: #FF6647;
+    border-radius: 50%;
+    border: 2.10345px solid #FFFFFF;
+    box-shadow: 0px 4.2069px 4.2069px rgba(255, 102, 71, 0.25);
+}
+.iconEdit{
+    color: white;
+    font-size: 20px;
+}
+
+.delte{
+    position: absolute;
+    width: 35.76px;
+    height: 35.76px;
+    right: 25.50px;
+    bottom: 60.12px;
+    background: #FF6647;
+    border-radius: 50%;
+    border: 2.10345px solid #FFFFFF;
+    box-shadow: 0px 4.2069px 4.2069px rgba(255, 102, 71, 0.25);
+}
+.iconDelete{
+    color: white;
+    font-size: 20px;
+}
+.header-Search{
+    margin-top: 30px;
+    margin-left: 165px;
+    border-color: #F86549;
+  
+}
+.Search-label{
+    background: url(https://cdn1.iconfinder.com/data/icons/hawcons/32/698956-icon-111-search-512.png) no-repeat left center;
+    width: 326px;
+    height: 52px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 24px rgba(0, 0, 0, 0.02);
+    border-radius: 26px;
+    border: 2px solid #ffffff
+}
+
+.Search-button{
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    left: 505px;
+    top: 31px;
+    background: #F86549;
+    border-radius: 50%;
+    border: 2.10345px solid #FFFFFF;
+    box-shadow: 0px 4.2069px 4.2069px rgba(255, 102, 71, 0.25);
+}
+.FiSearch{
+    color: white;
+    font-size: 30px;
+}
+
+.FiSearch_{
+    position:absolute;
+    font-size: 20px;
+    left: 184px;
+    top: 10px;
+}
+
+.Add-form{
+    position: absolute;
+    width: 618px;
+    height: 552px;
+    left: 772px;
+    top: 114px;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+}
+.Add-vacation{
+    position: absolute;
+    width: 219px;
+    height: 34px;
+    left: 199px;
+    top: -5px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 34px;
+    color: #000001;
+    text-shadow: 0px 2px 80px #FFFFFF;
+}
+#Add-vacation-p{
+    display: none;
+}
+
+.plus-header-icon{
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    left: 283px;
+    top: 526px;
+    background: #F86549;
+    border-radius: 50%;
+    border: 2.10345px solid #FFFFFF;
+    box-shadow: 0px 4.2069px 4.2069px rgba(255, 102, 71, 0.25);
+}
+.Cancel-icon{
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    left: 323px;
+    top: 526px;
+    background: #F86549;
+    border-radius: 50%;
+    border: 2.10345px solid #FFFFFF;
+    box-shadow: 0px 4.2069px 4.2069px rgba(255, 102, 71, 0.25);
+}
+.Approval-icon{
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    left: 243px;
+    top: 526px;
+    background: #F86549;
+    border-radius: 50%;
+    border: 2.10345px solid #FFFFFF;
+    box-shadow: 0px 4.2069px 4.2069px rgba(255, 102, 71, 0.25);
+}
+.Plus-icon{
+    position:absolute;
+   color: #FFFFFF;
+   font-size: 40px;
+   bottom: 4px;
+   right: 4px;
+}
+.image{
+    position:absolute;
+    top: 276px;
+    left: 161px;
+    width: 291px;
+    height: 277px;
+    background-image: url('../public/thousand.png');
+}
+.form-vacation{
+    width: 550px;
+    height: 400px;
+    margin-top: 50px;
+}
+.input-label-from{
+    width: 538px;
+    height: 55px;
+    margin-left: 0;
+}
+ .input-label-from p{
+    color: #353646;
+    opacity: 0.4;
+    width: 35px;
+    height: 16px;
+    font-size: 12px;
+ }
+ .input-label-from input{
+    position: absolute;
+    width: 538px;
+    height: 35px;
+    background: #F6F7FB;
+    border-radius: 4px;
+    border: 2.10345px solid #FFFFFF;
+ }
+ .form-vacation section{
+   margin-left: 40px;
+   margin-top: 25px;
+ }
+
+ 
+ 
+

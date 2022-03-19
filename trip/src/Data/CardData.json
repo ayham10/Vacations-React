@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "tripName": "Phi Phi Islands",
+        "tripLocation": "Thailand",
+        "tripPrice": "$1,480",
+        "img": "./images/image.png"
+    },
+    {
+        "id": 2,
+        "tripName": "Kudahuvadhoo island",
+        "tripLocation": "Maldives",
+        "tripPrice": "$1,030",
+        "img": "./images/image1.jpg"
+    },
+    {
+        "id": 3,
+        "tripName": "Greecevillage",
+        "tripLocation": "Maldives",
+        "tripPrice": "$1,480",
+        "img": "./images/image3.png"
+    },
+    {
+        "id": 4,
+        "tripName": "Kudahuvadhoo island",
+        "tripLocation": "Maldives",
+        "tripPrice": "$1,480",
+        "img": "./images/image4.png"
+    }
+]
